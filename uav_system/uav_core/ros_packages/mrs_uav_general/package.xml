@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<package format="2">
+
+  <name>mrs_uav_general</name>
+  <version>1.0.4</version>
+  <description>The mrs_uav_general package</description>
+
+  <author email="tomas.baca@fel.cvut.cz">Tomas Baca</author>
+  <maintainer email="tomas.baca@fel.cvut.cz">Tomas Baca</maintainer>
+
+  <license>BSD 3-Clause</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>libboost-date-time-dev</depend>
+  <depend>libboost-filesystem-dev</depend>
+  <depend>libboost-program-options-dev</depend>
+  <depend>libboost-regex-dev</depend>
+  <depend>libboost-thread-dev</depend>
+  <depend>rosbag_storage</depend>
+  <depend>rosconsole</depend>
+  <depend>std_srvs</depend>
+  <depend>xmlrpcpp</depend>
+  <depend>nodelet</depend>
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+  <depend>mrs_msgs</depend>
+  <depend>mavros_msgs</depend>
+  <depend>mrs_lib</depend>
+  <depend>std_msgs</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>tf</depend>
+  <depend>topic_tools</depend>
+
+  <exec_depend>genmsg</exec_depend>
+  <exec_depend>genpy</exec_depend>
+  <exec_depend>roslib</exec_depend>
+
+  <export>
+    <nodelet plugin="${prefix}/plugins.xml" />
+  </export>
+
+</package>

@@ -1,0 +1,14 @@
+Here are the the different packages needed to run the program.
+
+Code detection uses OpenCV to detect ArUco codes 
+Filter contains 2 packages : 
+	A package tfe_msgs that contains my custom message
+	Global pose caluclator that calculates the position of the aruco code in the 3D world.
+Prediction contains the code to use the Bézier predictor 
+
+To run all the nodes : 
+
+rosrun code_detection Aruco_detection
+rosrun global_pose_calculator Global_pose_publisher.py
+rosrun bezier_predictor Predictor.py
+	

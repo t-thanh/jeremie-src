@@ -1,0 +1,12 @@
+<launch>
+  <!-- Set the ROS namespace for the node -->
+  <group ns="global_pose">
+
+    <!-- Launch the global_pose_publisher node -->
+    <node name="global_pose_publisher" pkg="global_pose_calculator" type="Global_pose_publisher.py" output="screen"/>
+
+  </group>
+</launch>
+
+
+
