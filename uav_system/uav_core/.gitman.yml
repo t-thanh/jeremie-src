@@ -386,7 +386,7 @@ sources_locked:
         target: ros_packages/mrs_uav_status
     scripts:
       - git submodule update --init --recursive
-  - repo: https://github.com/ctu-mrs/mrs_uav_testing.git
+  - repo: https://github.com/ctu-mrs/mrs_uav_testing_old.git
     name: mrs_uav_testing
     rev: 7942f7018ef1b21f8ed281ef831bd30c067cc9e0
     type: git
