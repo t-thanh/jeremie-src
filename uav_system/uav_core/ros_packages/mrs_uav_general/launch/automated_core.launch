@@ -258,8 +258,8 @@
   <!-- <arg name="trajectory_file" value="$(arg shape)_traj.txt" /> -->
   
   <!-- Generate the SDF file from the template -->
-  <!-- <node pkg="python_scripts" type="generate_sdf.py" name="generate_sdf" args="/home/t-thanh/jeremie/src/uav_system/simulation/ros_packages/mrs_gazebo_common_resources/models/Target_2/model_template.sdf /home/jeremie/Master-Thesis/Quadrotor/ros1_ws/src/uav_system/simulation/ros_packages/mrs_gazebo_common_resources/models/Target_2/model.sdf $(arg trajectory_file)" /> -->
+  <!-- <node pkg="python_scripts" type="generate_sdf.py" name="generate_sdf" args="/home/user/Projects/catkin_ws/src/uav_system/simulation/ros_packages/mrs_gazebo_common_resources/models/Target_2/model_template.sdf /home/jeremie/Master-Thesis/Quadrotor/ros1_ws/src/uav_system/simulation/ros_packages/mrs_gazebo_common_resources/models/Target_2/model.sdf $(arg trajectory_file)" /> -->
 
-  <node pkg="gazebo_ros" type="spawn_model" name="spawn_target_2" output="log" args="-sdf -file /home/t-thanh/jeremie/src/uav_system/simulation/ros_packages/mrs_gazebo_common_resources/models/Target_2/model.sdf -model Target_2 -x 1 -y 1 -z -0.99" launch-prefix="bash -c 'sleep 60.0; $0 $@'"/>
+  <node pkg="gazebo_ros" type="spawn_model" name="spawn_target_2" output="log" args="-sdf -file /home/user/Projects/catkin_ws/src/uav_system/simulation/ros_packages/mrs_gazebo_common_resources/models/Target_2/model.sdf -model Target_2 -x 1 -y 1 -z -0.99" launch-prefix="bash -c 'sleep 60.0; $0 $@'"/>
   
 </launch>
