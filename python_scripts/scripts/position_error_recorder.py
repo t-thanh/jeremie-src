@@ -35,7 +35,7 @@ class GimbalMover:
         self.position_updated=1
         self.corrected_position=Point
         self.rec_data = [[],[],[],[]]
-        self.output_file = "/home/t-thanh/jeremie/position_error_{0}_{1}m_s_{2}m_FIXED.json".format(self.shape, self.speed, self.altitude)
+        self.output_file = "/home/user/Projects/catkin_ws/position_error_{0}_{1}m_s_{2}m_FIXED.json".format(self.shape, self.speed, self.altitude)
         self.corrected_odom=[]
         self.greatest_ang_vel=0
 
